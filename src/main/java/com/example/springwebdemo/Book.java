@@ -42,5 +42,12 @@ public class Book {
         return "Książka: " + title +" o numerze ISBN " + ISBN + " autorstwa: " + author.getInfo();
     }
 
-
+    @Override
+    public String toString() {
+        return "Book{" +
+                "title='" + title + '\'' +
+                ", ISBN='" + ISBN + '\'' +
+                ", author=" + author +
+                '}';
+    }
 }

@@ -30,4 +30,11 @@ public class Author {
         return firstName + " " + lastName;
     }
 
+    @Override
+    public String toString() {
+        return "Author{" +
+                "firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                '}';
+    }
 }
